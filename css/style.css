@@ -1,3 +1,87 @@
 *{
-    font-family: 'Mont', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* common ^  */
+
+/*sezione navbar sinistra*/
+.header-bgcolor{
+    background-color: black;
+    height: 90vh;
+    width:230px;
+    padding: 2em 1em 0.5em 1em;
+}
+
+nav {
+    color: #919191;
+}
+
+.nav-top{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+
+.nav-img-container{
+    width: 150px;
+}
+
+.nav-top-home{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.nav-top-home-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-left: -1em;
+    padding-left: 1em;
+    border-left: 3px solid transparent;
+}
+
+#greenborder-nav{
+    border-left: 3px solid #B9FF32;
+}
+
+.nav-icons{
+    width: 1.5em;
+}
+
+#home{
+    color: white;
+}
+
+
+.nav-top-playlist{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.nav-top-playlist h2{
+    color: white;
+}
+
+.crea-playlist{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.fa-square-plus{
+    font-size: 3em;
+}
+
+.nav-top-playlist ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    list-style-type: none;
 }
