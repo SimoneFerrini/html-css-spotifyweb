@@ -174,10 +174,48 @@ nav {
 
 /*fine barra upgrade*/
 
+/*inizio main display*/
+
+.main-page-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em 0;
+
+    list-style-type: none;
+    
+    font-weight: bold;
+    color:#919191;
+
+}
 
 
+.main-page-list li{
+    position: relative;
+}
+
+.main-page-list li .main-page-list-bonus{
+    position: absolute;
+    left: 30%;
+    bottom: -3px;
+    border-bottom: 3px solid transparent;
+    width: 40%;
+
+}
 
 
+#main-active-color{
+    color: white;
+}
+
+#main-active-sub{
+    border-color: #B9FF32;
+}
 
 
 
@@ -414,5 +452,6 @@ nav {
     color: white;
     text-decoration: underline;
 }
+/*fine bonus*/
 
 /*fine command bar-----------------------------------*/
