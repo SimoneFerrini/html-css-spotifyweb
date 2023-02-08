@@ -180,11 +180,11 @@ nav {
 .main-page-list{
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 35px;
     flex-wrap: wrap;
 
     max-width: 800px;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     padding: 2em 0;
 
@@ -210,9 +210,9 @@ nav {
 
 }
 
-
-#main-active-color{
+.main-page-list li:hover{
     color: white;
+    cursor: pointer;
 }
 
 #main-active-sub{
@@ -220,12 +220,62 @@ nav {
 }
 /*fine lista pagine*/
 
-/*section album*/
+
+
+/*N.B. lo stile delle cards è definito nella prima sezione!!!*/
+/*section album-prima sezione*/
+
+.album{
+    padding: 30px;
+    color: white;
+}
+
+
+.album h2{
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    text-align: center;
+    width: calc(100% / 6 - (20px / 6 * 5));
+}
+
+
+.card-img-container{
+    width: 100%;
+}
+
+.card-img-container img{
+    width: 100%;
+}
 
 
 
 
+.title{
+    font-size: 1.1em;
+    font-weight: bold;
+}
 
+
+
+.subtitle{
+    font-size: 0.9em;
+    color: #919191;
+}
 /*fine section album*/
 
 
