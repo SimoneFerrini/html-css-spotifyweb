@@ -147,6 +147,42 @@ nav {
     width: calc(100% - 260px);
     
 }
+
+/*barra upgrade*/
+.upgrade{
+    width: 100%;
+    height: 100px;
+
+    background-color: rgba(0, 0, 0, 0.441);
+    text-align: right;
+    padding: 2em;
+}
+
+.btn-upgrade{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+
+    border-radius: 30px;
+    padding: 10px 40px;
+    transition: transform 0.5s;
+}
+
+.btn-upgrade:hover{
+    transform: scale(110%);
+}
+
+/*fine barra upgrade*/
+
+
+
+
+
+
+
+
+
+
 /*fine main-------------------------------------*/
 
 
@@ -217,6 +253,33 @@ nav {
     display: flex;
     gap: 15px;
 }
+
+/*bonus hover*/
+
+.nav-top-home-row:hover{
+    color: white;
+    cursor: pointer;
+}    
+
+
+.crea-playlist:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+.nav-top-playlist ul li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+.nav-bottom-small:hover{
+    cursor: pointer;
+    color: white;
+}
+/*fine bonus*/
+
 /*fine parte sinistra*/
 
 
@@ -307,6 +370,7 @@ nav {
     align-items: center;
     flex-shrink: 2;
 
+    gap: 5px;
     width: 100%;
     max-width: 260px;
     height: 100%;
@@ -337,5 +401,18 @@ nav {
     background-color: white;
 }
 /*fine pt destra*/
+
+/*bonus hover*/
+
+.command-bar i:hover{
+    cursor: pointer;
+    color: white;
+}
+
+#command-brano-nome:hover{
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+}
 
 /*fine command bar-----------------------------------*/
