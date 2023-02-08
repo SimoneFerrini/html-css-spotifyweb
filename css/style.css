@@ -176,11 +176,12 @@ nav {
 
 /*inizio main display*/
 
+/*lista pagine*/
 .main-page-list{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    
+    gap: 15px;
+    flex-wrap: wrap;
 
     max-width: 800px;
     width: 80%;
@@ -197,6 +198,7 @@ nav {
 
 .main-page-list li{
     position: relative;
+    margin-bottom: 1em;
 }
 
 .main-page-list li .main-page-list-bonus{
@@ -216,6 +218,15 @@ nav {
 #main-active-sub{
     border-color: #B9FF32;
 }
+/*fine lista pagine*/
+
+/*section album*/
+
+
+
+
+
+/*fine section album*/
 
 
 
