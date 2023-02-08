@@ -548,6 +548,43 @@ nav {
     background-color: white;
     border-radius: 3px;
 }
+
+/*hover play timeline*/
+.play-timeline-bonus{
+    display: none;
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: #B9FF32;
+}
+
+.play-timeline-bonus-hover{
+
+    position: absolute;
+    top: -180%;
+    right: -10%;
+
+    width: 15px;
+    height: 15px;
+
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+
+.timeline:hover{
+    cursor: pointer;
+}
+
+.timeline:hover .play-timeline-bonus{
+    display: block;
+}
+/*fine hover su timeline*/
+
+
+
 /*fine parte centrale command bar----------*/
 
 /*parte dx command bar--------*/
@@ -617,6 +654,7 @@ nav {
 .command-audio:hover .audio-hover{
     display: block;  
 }
+/*fine hover audio line*/
 
 /*fine pt destra*/
 
