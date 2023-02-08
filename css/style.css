@@ -147,17 +147,19 @@ nav {
 .main-bgcolor{
     background-color: #141922;
     width: calc(100% - 260px);
+    height: calc(100vh - 100px);
+    position:relative;
 }
 
-
-.main-display{
-    overflow-y: scroll;
-}
 
 /*barra upgrade*/
 .upgrade{
-    width: 100%;
+    width: calc(100% - 260px);
     height: 100px;
+
+    position: fixed;
+    top: 0;
+    right: 0;
 
     background-color: rgba(0, 0, 0, 0.441);
     text-align: right;
@@ -182,6 +184,13 @@ nav {
 
 /*inizio main display*/
 
+
+.main-display{
+    overflow-y: scroll;
+    height: calc(100vh - 100px);
+    padding-top: 100px;
+
+}
 
 /*lista pagine*/
 .main-page-list{
