@@ -1,4 +1,4 @@
-*{
+body{
     font-family: 'Montserrat', sans-serif;
 }
 /* common ^  */
@@ -18,7 +18,7 @@
 /*sezione navbar sinistra*/
 .header-bgcolor{
     background-color: black;
-    height: 90vh;
+    height: calc(100vh - 100px);
     width:260px;
     padding: 2em 1em 0.5em 1em;
 }
@@ -145,6 +145,7 @@ nav {
 .main-bgcolor{
     background-color: #141922;
     width: calc(100% - 260px);
+    
 }
 /*fine main*/
 
@@ -153,9 +154,9 @@ nav {
 /*section comandi*/
 .command-bar{
     width: 100%;
-    height: 10vh;
+    height: 100px;
 
-    padding: 2em 1em;
+  
 
     background-color:#282828 ;
 }
@@ -167,7 +168,10 @@ nav {
     justify-content: space-between;
     align-items: center;
     
-    width: 230px;
+    width: 100%;
+    max-width: 260px;
+    height: 100%;
+    padding: 15px 10px;
     color: #919191;
 }
 
@@ -176,13 +180,12 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    height: 100%;
     gap: 10px;
 }
 
 .track-img-container{
-    width: 60px;
-    height: 60px;
-    margin-top: -10px;
+    height: 100%;
     
 }
 
@@ -208,3 +211,6 @@ nav {
     gap: 15px;
 }
 /*fine parte sinistra*/
+
+
+/*command bar centrale*/
