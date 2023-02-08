@@ -15,7 +15,7 @@ body{
 
 
 
-/*sezione navbar sinistra*/
+/*sezione navbar sinistra--------------------*/
 .header-bgcolor{
     background-color: black;
     height: calc(100vh - 100px);
@@ -137,22 +137,27 @@ nav {
     height: 100%;
     margin-left: 2px;
 }
-/* fine parte navbar laterale*/
+/* fine parte navbar laterale--------------------*/
 
 
 
-/*main*/
+/*main-------------------------------------------*/
 .main-bgcolor{
     background-color: #141922;
     width: calc(100% - 260px);
     
 }
-/*fine main*/
+/*fine main-------------------------------------*/
 
 
 
-/*section comandi*/
+
+
+/*section comandi----------------------------------*/
 .command-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 100%;
     height: 100px;
 
@@ -214,3 +219,112 @@ nav {
 
 
 /*command bar centrale*/
+
+.command-center{
+    width: 100%;
+    height: 100%;
+    min-width: 200px;
+    max-width: 500px;
+
+    padding: 15px 3px;
+}
+
+/*command bar centrale top*/
+.command-center-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+
+    height: 50%;
+   
+    color: white;
+    font-size: 1.4em;
+
+   
+}
+
+#commandbar-play{
+    font-size: 1.6em;
+    transition: transform 0.3s;
+}
+
+#commandbar-play:hover{
+    color:#B9FF32;
+    transform: scale(110%);
+}
+
+/*command bar centrale bottom*/
+.command-center-bottom{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5em;
+
+    height: 50%;
+   
+    color:#919191;
+   
+}
+
+.command-center-bottom-time{
+    font-size: 0.7em;
+}
+
+.timeline{
+    height: 3px;
+    width: 80%;
+    
+}
+
+.timeline-tot{
+    height: 100%;
+    width: 100%;
+    background-color: #919191;
+    border-radius: 3px;
+}
+
+.timeline-current{
+    height: 100%;
+    width: 15%;
+    background-color: white;
+    border-radius: 3px;
+}
+/*fine parte centrale command bar----------*/
+
+/*parte dx command bar--------*/
+.command-dx{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    max-width: 260px;
+    height: 100%;
+    padding: 15px 10px;
+    color: white;
+}
+
+
+.command-audio{
+    height: 3px;
+    width: 55%;
+}
+
+
+.comand-audio-tot{
+    height: 100%;
+    width: 100%;
+
+    border-radius: 3px;
+    background-color: #919191;
+}
+
+.command-audio-current{
+    height: 100%;
+    width: 50%;
+
+    border-radius: 3px;
+    background-color: white;
+}
