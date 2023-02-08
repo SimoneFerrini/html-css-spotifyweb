@@ -585,10 +585,43 @@ nav {
     height: 100%;
     width: 50%;
 
+    position: relative;
+
     border-radius: 3px;
     background-color: white;
 }
+
+/*hover audio line*/
+
+.audio-hover{
+    display: none;
+
+    position: absolute;
+    top: -150%;
+    right: -10%;
+
+    width: 15px;
+    height: 15px;
+
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 50%;
+
+
+}
+
+.command-audio:hover{
+    cursor: pointer; 
+}
+
+.command-audio:hover .audio-hover{
+    display: block;  
+}
+
 /*fine pt destra*/
+
+
+
 
 /*bonus hover*/
 
