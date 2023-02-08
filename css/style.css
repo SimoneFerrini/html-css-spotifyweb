@@ -563,8 +563,8 @@ nav {
 .play-timeline-bonus-hover{
 
     position: absolute;
-    top: -180%;
-    right: -10%;
+    top: -6px;
+    right: -8px;
 
     width: 15px;
     height: 15px;
@@ -634,8 +634,8 @@ nav {
     display: none;
 
     position: absolute;
-    top: -150%;
-    right: -10%;
+    top: -6px;
+    right: -8px;
 
     width: 15px;
     height: 15px;
@@ -676,3 +676,20 @@ nav {
 /*fine bonus*/
 
 /*fine command bar-----------------------------------*/
+
+
+/*bonus video play loading---------------------------*/
+
+.timeline-current:active{
+   animation: load 30s linear ;
+}
+
+@keyframes load{
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
