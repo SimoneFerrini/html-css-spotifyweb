@@ -35,6 +35,23 @@ nav {
     color: #919191;
 }
 
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100%;
+
+    color: #919191;
+}
+
+
+.navbar-xs{
+    display: none;
+}
+
+
+
 .nav-top{
     display: flex;
     flex-direction: column;
@@ -807,4 +824,52 @@ nav {
     
 }
    
+}
+
+
+/*display xsmall-------------------*/
+@media screen and (max-width:576px){
+
+    .header-bgcolor{
+        width:50px;
+
+    }
+
+    
+    .navbar{
+        display:none;
+    }
+
+    .navbar-xs{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+        height: 100%;
+    
+        color: #919191;
+    
+    }
+
+
+    .main-bgcolor{
+        width: calc(100% - 50px);
+    }
+    
+    
+    .upgrade{
+        width: calc(100% - 50px);
+    }
+
+    .card{
+        min-width: 100px;       
+    }
+
+
+
+
+
+
+
+
 }
