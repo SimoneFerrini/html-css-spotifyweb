@@ -166,6 +166,8 @@ nav {
 
     background-color: rgba(0, 0, 0, 0.441);
     padding: 25px 27px 40px;
+
+    z-index: 2;
 }
 
 .btn-upgrade{
@@ -273,6 +275,7 @@ nav {
     text-align: center;
     width: calc(100% / 6 - (20px / 6 * 5));
     min-width: 200px;
+    
 }
 
 
@@ -280,6 +283,7 @@ nav {
     min-width: 200px;
     width: 100%;
     position: relative;
+    
 }
 
 /*main bonus*/
@@ -309,6 +313,7 @@ nav {
 /*fine main bonus*/
 
 .card-img-container img{
+    
     width: 100%;
 }
 
