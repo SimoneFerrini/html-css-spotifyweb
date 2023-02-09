@@ -803,7 +803,7 @@ nav {
 /*main - card container*/    
 .card{
     width: calc(100% / 2 - (20px / 2 * 5));
-    min-width: 200px;       
+    min-width: 100px;       
 }
 
 .album h2{
