@@ -800,5 +800,11 @@ nav {
     flex-direction: column;
     gap: 10px;
 }
+
+.btn-upgrade{
+    font-size: 0.6em;
+    padding: 5px 20px;
+    
+}
    
 }
