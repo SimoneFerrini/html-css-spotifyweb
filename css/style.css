@@ -274,13 +274,13 @@ nav {
 
     text-align: center;
     width: calc(100% / 6 - (20px / 6 * 5));
-    min-width: 200px;
+    
     
 }
 
 
 .card-img-container{
-    min-width: 200px;
+    
     width: 100%;
     position: relative;
     
@@ -712,3 +712,46 @@ nav {
         width: 100%;
     }
 }
+
+
+
+
+
+/*display medium-----------------------------*/
+
+
+@media screen and (max-width:992px){
+/*lista font size gap*/
+    .main-page-list{
+        font: 0.6em;
+        gap: 15px;
+        
+    }
+/*main - card container*/    
+    .card{
+        width: calc(100% / 4 - (20px / 4 * 5));       
+    }
+
+/*command bar gap*/
+.command-center{
+    min-width: 150px;
+}
+
+
+.command-center-top{
+    gap: 5px;
+    font-size: 1em;
+
+   
+}
+
+#commandbar-play{
+    font-size: 1.4em;
+    transition: transform 0.3s;
+}
+
+
+
+}
+
+
