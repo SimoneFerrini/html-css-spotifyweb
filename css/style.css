@@ -190,7 +190,6 @@ nav {
 .main-display{
     overflow-y: auto;
     height: calc(100vh - 100px);
-    padding-top: 100px;
     padding: 100px 30px;
 
 }
@@ -199,16 +198,15 @@ nav {
 .main-page-list{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 35px;
     flex-wrap: wrap;
 
-    max-width: 800px;
-    width: 90%;
-    margin: 0 auto;
+    max-width: 900px;
     padding: 2em 0;
-
+    margin: 0 auto;
     list-style-type: none;
-    
+
     font-weight: bold;
     color:#919191;
 
@@ -220,23 +218,26 @@ nav {
     margin-bottom: 1em;
 }
 
-.main-page-list li .main-page-list-bonus{
-    position: absolute;
-    left: 30%;
-    bottom: -3px;
-    border-bottom: 3px solid transparent;
-    width: 40%;
+.main-page-list li#list-active::before{
+    content: "";
 
+    position: absolute;
+
+    left: 50%;
+    bottom: -6px;
+    transform: translateX(-50%);
+
+    width: 50px;
+    height: 3px;
+    background-color: #B9FF32;
 }
+
 
 .main-page-list li:hover{
     color: white;
     cursor: pointer;
 }
 
-#main-active-sub{
-    border-color: #B9FF32;
-}
 /*fine lista pagine*/
 
 
@@ -294,15 +295,13 @@ nav {
 }
 
 
-.main-bonus-position{
-    position: absolute;
-    left: 40%;
-    top: 40%;
-}
+
 
 
 .card-img-container:hover .main-bonus{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
 }
 /*fine main bonus*/
@@ -450,7 +449,7 @@ nav {
 
 .like-save{
     display: flex;
-    gap: 15px;
+    gap: 10px;
 }
 
 /*bonus hover*/
@@ -500,14 +499,14 @@ nav {
 /*command bar centrale top*/
 .command-center-top{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 1.5em;
+    gap: 10px;
 
     height: 50%;
    
     color: white;
-    font-size: 1.4em;
+    font-size: 1.2em;
 
    
 }
@@ -527,7 +526,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1.5em;
+    gap: 10px;
 
     height: 50%;
    
@@ -617,7 +616,7 @@ nav {
 
 .command-audio{
     height: 3px;
-    width: 55%;
+    width: 50%;
 }
 
 
