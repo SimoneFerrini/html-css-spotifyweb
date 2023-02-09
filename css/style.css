@@ -204,7 +204,7 @@ nav {
     gap: 35px;
     flex-wrap: wrap;
 
-    max-width: 900px;
+    width: calc(100% - 35px);
     padding: 2em 0;
     margin: 0 auto;
     list-style-type: none;
@@ -499,7 +499,6 @@ nav {
 
     width: 100%;
     height: 100%;
-    min-width: 200px;
     max-width: 500px;
 
     padding: 15px 3px;
@@ -508,9 +507,9 @@ nav {
 /*command bar centrale top*/
 .command-center-top{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 50px;
 
     height: 50%;
    
@@ -721,37 +720,85 @@ nav {
 
 
 @media screen and (max-width:992px){
-/*lista font size gap*/
     .main-page-list{
-        font: 0.6em;
-        gap: 15px;
-        
+        gap: 25px;    
+        width: calc(100% - 25px);
     }
-/*main - card container*/    
+
+
     .card{
         width: calc(100% / 4 - (20px / 4 * 5));       
     }
 
-/*command bar gap*/
-.command-center{
-    min-width: 150px;
+
+    .command-center{
+        max-width: 400px;
+    }
+
+    .command-center-top{
+        gap: 30px;
+    }
+
+
+
 }
 
+
+/*display small----------------------------*/
+
+
+@media screen and (max-width:768px){
+/*lista font size gap*/
+.main-page-list{
+    gap: 5px;    
+    width: calc(100%);
+    font-size: 0.8em;
+}
+
+/*main - card container*/    
+.card{
+    width: calc(100% / 2 - (20px / 2 * 5));
+    min-width: 200px;       
+}
+
+.album h2{
+    font-size: 1.5em;
+}
+
+.john-doe h2{
+    font-size: 1.5em;
+
+}
+
+.john-doe .subtitle{
+    font-size: 0.6em;
+}
+
+
+
+.artisti h2{
+    font-size: 1.5em;
+}
+
+.artisti .subtitle{
+    font-size: 0.6em;
+}
+
+
+
+
+.command-center{
+    max-width: 300px;
+}
 
 .command-center-top{
-    gap: 5px;
-    font-size: 1em;
+    gap: 20px;
+}
 
+.like-save{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
    
 }
-
-#commandbar-play{
-    font-size: 1.4em;
-    transition: transform 0.3s;
-}
-
-
-
-}
-
-
