@@ -46,12 +46,6 @@ nav {
 }
 
 
-.navbar-xs{
-    display: none;
-}
-
-
-
 .nav-top{
     display: flex;
     flex-direction: column;
@@ -157,6 +151,40 @@ nav {
     margin-left: 2px;
 }
 /* fine parte navbar laterale--------------------*/
+
+/*navbar small*/
+
+.navbar-xs{
+    display: none;
+}
+
+.navbar-xs .nav-img-container{
+    width: 30px;
+    margin: -3px 0 0 -3px;
+}
+
+.navbar-xs .nav-bottom-img-container{
+    width: 20px;
+    height: 20px;
+}
+
+.navbar-xs .nav-bottom-img-container img{
+    object-position: bottom;
+    margin-left: -0.3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -850,6 +878,10 @@ nav {
         color: #919191;
     
     }
+
+    
+    
+
 
 
     .main-bgcolor{
