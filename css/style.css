@@ -772,7 +772,7 @@ nav {
 
 
     .card{
-        width: calc(100% / 4 - (20px / 4 * 5));       
+        width: calc(100% / 4 - (20px / 4 * 3));       
     }
 
 
@@ -796,13 +796,13 @@ nav {
 /*lista font size gap*/
 .main-page-list{
     gap: 5px;    
-    width: calc(100%);
+    width:100%;
     font-size: 0.8em;
 }
 
 /*main - card container*/    
 .card{
-    width: calc(100% / 2 - (20px / 2 * 5));
+    width: calc(100% / 2 - (20px / 2));
     min-width: 100px;       
 }
 
